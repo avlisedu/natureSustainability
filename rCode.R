@@ -10,7 +10,7 @@
 #              equidispersion testing (Cameron & Trivedi), and regional model 
 #              estimation.
 #
-# Authors: Eduardo Silva, Maisa Mendonça Silva
+# Authors: Eduardo Silva, Erlandson Ferreira Saraiva and Maisa Mendonça Silva 
 # Affiliation: Graduate Program in Production Engineering (PPGEP/UFPE)
 #              Research Group on Information and Decision Systems (GPSID)
 #
@@ -225,3 +225,4 @@ summary(model_zinbase5)
 confint(model_zinbase5)
 model_zinbase <- simulateResiduals(fittedModel = model_zinbase)
 plot(model_zinbase)
+
